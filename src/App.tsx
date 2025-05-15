@@ -26,6 +26,7 @@ function App() {
           <ResultScreen score={score} onRestart={handleRestartQuiz} />
         )}
       </div>
+      // am not sure what to do
     </div>
   )
 }
