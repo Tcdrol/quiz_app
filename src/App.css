@@ -2,6 +2,7 @@
   min-height: 100vh;
   background-color: #f3f4f6;
   padding: 2rem 1rem;
+  min-width: 100vw;
 }
 
 .quiz-container {
