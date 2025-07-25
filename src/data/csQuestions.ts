@@ -160,4 +160,36 @@ export const csQuestions = [
     ],
     answer: 1,
   }
+  ,
+  {
+    question: "What is the purpose of the 'git add' command?",
+    options: [
+      "To create a new branch",
+      "To download a repository from a remote source",
+      "To stage changes for commit",
+      "To merge branches"
+    ],
+    answer: 2,
+  },
+  {
+    question: "What is the name of the React component life cycle method that is called when a component is mounted?",
+    options: [
+      "componentDidMount",
+      "componentWillUnmount",
+      "componentDidUpdate",
+      "componentWillUpdate"
+    ],
+    answer: 0,
+  },
+  {
+    question: "What is the name of the React component life cycle method that is called when a component is about to be unmounted?",
+    options: [
+      "componentDidMount",
+      "componentWillUnmount",
+      "componentDidUpdate",
+      "componentWillUpdate"
+    ],
+    answer: 1,
+  }
+
 ];
