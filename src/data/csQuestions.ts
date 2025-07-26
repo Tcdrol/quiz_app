@@ -190,6 +190,196 @@ export const csQuestions = [
       "componentWillUpdate"
     ],
     answer: 1,
+  },
+  {
+    question: "What is the correct way to create a state variable in a functional component?",
+    options: [
+      "const [state, setState] = useState(initialValue)",
+      "this.state = { value: initialValue }",
+      "const state = useState(initialValue)",
+      "useState(initialValue)"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which hook should you use to perform side effects in a functional component?",
+    options: [
+      "useEffect",
+      "useState",
+      "useContext",
+      "useReducer"
+    ],
+    answer: 0,
+  },
+  {
+    question: "What is the purpose of the key prop in React lists?",
+    options: [
+      "It's used for styling elements",
+      "It helps React identify which items have changed",
+      "It's required for all components",
+      "It defines the order of components"
+    ],
+    answer: 1,
+  },
+  {
+    question: "What is the correct syntax for a controlled input in React?",
+    options: [
+      "<input type='text' value={value} onChange={handleChange} />",
+      "<input type='text' defaultValue='value' />",
+      "<input type='text' value={value} />",
+      "<input type='text' onChange={handleChange} />"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which method is used to update the state in a class component?",
+    options: [
+      "this.updateState()",
+      "this.setState()",
+      "this.state.update()",
+      "this.newState()"
+    ],
+    answer: 1,
+  },
+  {
+    question: "What is the purpose of React.Fragment?",
+    options: [
+      "To group multiple elements without adding extra nodes to the DOM",
+      "To create reusable components",
+      "To handle events",
+      "To manage component state"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which hook is used to access the context in a functional component?",
+    options: [
+      "useContext",
+      "useContextValue",
+      "useContextState",
+      "useContextProvider"
+    ],
+    answer: 0,
+  },
+  {
+    question: "What is the purpose of the useCallback hook?",
+    options: [
+      "To manage component state",
+      "To memoize functions between re-renders",
+      "To handle side effects",
+      "To create context"
+    ],
+    answer: 1,
+  },
+  {
+    question: "Which of these is NOT a valid way to conditionally render in JSX?",
+    options: [
+      "{condition && <Component />}",
+      "{condition ? <TrueComponent /> : <FalseComponent />}",
+      "{if (condition) { return <Component /> }}",
+      "{condition ? <Component /> : null}"
+    ],
+    answer: 2,
+  },
+  {
+    question: "What is the purpose of the useRef hook?",
+    options: [
+      "To manage component state",
+      "To create a reference to a DOM element or mutable value",
+      "To handle side effects",
+      "To create context"
+    ],
+    answer: 1,
+  },
+  {
+    question: "Which lifecycle method is called right before a component is removed from the DOM?",
+    options: [
+      "componentWillUnmount",
+      "componentDidUnmount",
+      "componentWillBeRemoved",
+      "componentWillUpdate"
+    ],
+    answer: 0,
+  },
+  {
+    question: "What is the purpose of the useMemo hook?",
+    options: [
+      "To memoize values between re-renders",
+      "To manage component state",
+      "To handle side effects",
+      "To create context"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which of these is NOT a valid way to pass data from parent to child component?",
+    options: [
+      "Props",
+      "Context",
+      "State",
+      "Refs"
+    ],
+    answer: 3,
+  },
+  {
+    question: "What is the purpose of the useReducer hook?",
+    options: [
+      "To manage complex state logic",
+      "To handle side effects",
+      "To create context",
+      "To memoize values"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which of these is NOT a valid React Hook?",
+    options: [
+      "useState",
+      "useEffect",
+      "useComponent",
+      "useContext"
+    ],
+    answer: 2,
+  },
+  {
+    question: "What is the purpose of the forwardRef function?",
+    options: [
+      "To create a reference to a DOM element",
+      "To forward refs to child components",
+      "To create a new context",
+      "To handle form submissions"
+    ],
+    answer: 1,
+  },
+  {
+    question: "Which hook should be used for data fetching in a functional component?",
+    options: [
+      "useEffect",
+      "useState",
+      "useContext",
+      "useFetch"
+    ],
+    answer: 0,
+  },
+  {
+    question: "What is the purpose of the useLayoutEffect hook?",
+    options: [
+      "To handle side effects after the browser has painted",
+      "To handle side effects before the browser has painted",
+      "To manage component state",
+      "To create context"
+    ],
+    answer: 1,
+  },
+  {
+    question: "Which of these is NOT a valid way to optimize performance in React?",
+    options: [
+      "Using React.memo()",
+      "Using useCallback() for all functions",
+      "Using useMemo() for expensive calculations",
+      "Using key prop in lists"
+    ],
+    answer: 1,
   }
 
 ];
