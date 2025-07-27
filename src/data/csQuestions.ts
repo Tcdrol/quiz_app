@@ -371,15 +371,7 @@ export const csQuestions = [
     ],
     answer: 1,
   },
-  {
-    question: "Which of these is NOT a valid way to optimize performance in React?",
-    options: [
-      "Using React.memo()",
-      "Using useCallback() for all functions",
-      "Using useMemo() for expensive calculations",
-      "Using key prop in lists"
-    ],
-    answer: 1,
-  }
+  
+ 
 
 ];
