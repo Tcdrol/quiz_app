@@ -361,16 +361,7 @@ export const csQuestions = [
     ],
     answer: 0,
   },
-  {
-    question: "What is the purpose of the useLayoutEffect hook?",
-    options: [
-      "To handle side effects after the browser has painted",
-      "To handle side effects before the browser has painted",
-      "To manage component state",
-      "To create context"
-    ],
-    answer: 1,
-  },
+  
   
  
 
