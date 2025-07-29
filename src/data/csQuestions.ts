@@ -341,14 +341,5 @@ export const csQuestions = [
     ],
     answer: 2,
   },
-  {
-    question: "What is the purpose of the forwardRef function?",
-    options: [
-      "To create a reference to a DOM element",
-      "To forward refs to child components",
-      "To create a new context",
-      "To handle form submissions"
-    ],
-    answer: 1,
- },
+  
 ];
