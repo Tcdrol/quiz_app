@@ -350,19 +350,5 @@ export const csQuestions = [
       "To handle form submissions"
     ],
     answer: 1,
-  },
-  {
-    question: "Which hook should be used for data fetching in a functional component?",
-    options: [
-      "useEffect",
-      "useState",
-      "useContext",
-      "useFetch"
-    ],
-    answer: 0,
-  },
-  
-  
- 
-
+ },
 ];
