@@ -331,15 +331,6 @@ export const csQuestions = [
     ],
     answer: 0,
   },
-  {
-    question: "Which of these is NOT a valid React Hook?",
-    options: [
-      "useState",
-      "useEffect",
-      "useComponent",
-      "useContext"
-    ],
-    answer: 2,
-  },
+  
   
 ];
