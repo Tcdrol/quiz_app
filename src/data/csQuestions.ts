@@ -282,16 +282,6 @@ export const csQuestions = [
     answer: 2,
   },
   {
-    question: "What is the purpose of the useRef hook?",
-    options: [
-      "To manage component state",
-      "To create a reference to a DOM element or mutable value",
-      "To handle side effects",
-      "To create context"
-    ],
-    answer: 1,
-  },
-  {
     question: "Which lifecycle method is called right before a component is removed from the DOM?",
     options: [
       "componentWillUnmount",
@@ -301,36 +291,7 @@ export const csQuestions = [
     ],
     answer: 0,
   },
-  {
-    question: "What is the purpose of the useMemo hook?",
-    options: [
-      "To memoize values between re-renders",
-      "To manage component state",
-      "To handle side effects",
-      "To create context"
-    ],
-    answer: 0,
-  },
-  {
-    question: "Which of these is NOT a valid way to pass data from parent to child component?",
-    options: [
-      "Props",
-      "Context",
-      "State",
-      "Refs"
-    ],
-    answer: 3,
-  },
-  {
-    question: "What is the purpose of the useReducer hook?",
-    options: [
-      "To manage complex state logic",
-      "To handle side effects",
-      "To create context",
-      "To memoize values"
-    ],
-    answer: 0,
-  },
+  
   
   
 ];
