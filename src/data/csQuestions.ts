@@ -281,16 +281,7 @@ export const csQuestions = [
     ],
     answer: 2,
   },
-  {
-    question: "Which lifecycle method is called right before a component is removed from the DOM?",
-    options: [
-      "componentWillUnmount",
-      "componentDidUnmount",
-      "componentWillBeRemoved",
-      "componentWillUpdate"
-    ],
-    answer: 0,
-  },
+ 
   
   
   
