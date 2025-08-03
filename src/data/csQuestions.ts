@@ -271,16 +271,7 @@ export const csQuestions = [
     ],
     answer: 1,
   },
-  {
-    question: "Which of these is NOT a valid way to conditionally render in JSX?",
-    options: [
-      "{condition && <Component />}",
-      "{condition ? <TrueComponent /> : <FalseComponent />}",
-      "{if (condition) { return <Component /> }}",
-      "{condition ? <Component /> : null}"
-    ],
-    answer: 2,
-  },
+  
  
   
   
