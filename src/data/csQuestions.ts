@@ -261,16 +261,7 @@ export const csQuestions = [
     ],
     answer: 0,
   },
-  {
-    question: "What is the purpose of the useCallback hook?",
-    options: [
-      "To manage component state",
-      "To memoize functions between re-renders",
-      "To handle side effects",
-      "To create context"
-    ],
-    answer: 1,
-  },
+
   
  
   
