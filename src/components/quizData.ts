@@ -1,3 +1,5 @@
+import { Question } from "./QuizScreen";
+
 import { csQuestions } from '../data/csQuestions';
 
 // Use the computer science questions
