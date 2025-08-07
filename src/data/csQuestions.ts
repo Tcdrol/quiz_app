@@ -130,11 +130,7 @@ export const csQuestions = [
     ],
     answer: 0,
   },
-  {
-    question: "Which of these is not a valid React hook?",
-    options: ["useState", "useEffect", "useComponent", "useContext"],
-    answer: 2,
-  },
+  
   {
     question: "What is the purpose of the virtual DOM in React?",
     options: [
